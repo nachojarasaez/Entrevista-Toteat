@@ -1,0 +1,11 @@
+endpoint: https://market-transaction-6c59bdacd3.herokuapp.com/toteat/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
+
+
+hooks:
+  post-deploy:
+    - prisma generate
