@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "postinstall": "tsc",
     "start": "ts-node index.ts"
   },
   "repository": {
