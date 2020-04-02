@@ -62,6 +62,21 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
 
     /* Advanced Options */
-    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+    "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
+    "paths": { "*": ["types/*"] },
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
   }
 }

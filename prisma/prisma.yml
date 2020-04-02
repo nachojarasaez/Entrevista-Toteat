@@ -1,4 +1,5 @@
-endpoint: https://market-register-dc41b92ae0.herokuapp.com
+#endpoint: https://market-register-dc41b92ae0.herokuapp.com
+endpoint: https://market-register-dc41b92ae0.herokuapp.com/Entrevista-Toteat/dev
 datamodel: datamodel.prisma
 
 generate:
