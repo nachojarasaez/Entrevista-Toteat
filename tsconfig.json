@@ -63,9 +63,6 @@
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
-    "paths": { "*": ["types/*"] },
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -77,6 +74,6 @@
     "alwaysStrict": true,
     "typeRoots": [
       "node_modules/@types"
-    ],
+    ]
   }
 }
