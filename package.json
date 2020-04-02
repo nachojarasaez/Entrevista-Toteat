@@ -22,5 +22,6 @@
     "url": "git+https://git.heroku.com/blueberry-pudding-85537.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
