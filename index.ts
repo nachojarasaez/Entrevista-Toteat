@@ -2,6 +2,7 @@ import express from 'express';
 import * as bodyParser from 'body-parser';
 import cors from 'cors';
 import * as dotenv from 'dotenv';
+import logger from 'morgan';
 dotenv.config();
 import appRouter from './src/routers';
 
@@ -17,6 +18,7 @@ const allowControlOrigin = (req: any, res: any, next: any): void => {
 };
 
 const app = express();
+app.use(logger('combined'));
 app.use(bodyParser.json());
 app.use(cors({origin: '*'}));
 app.use(allowControlOrigin);
